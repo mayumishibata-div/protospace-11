@@ -71,4 +71,6 @@ group :test do
   gem "webdrivers"
 end
 
-gem "devise"
+  gem "devise"
+  gem 'mini_magick'
+  gem 'image_processing', '~> 1.12.0'
