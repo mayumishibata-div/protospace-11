@@ -7,7 +7,7 @@ class CommentsController < ApplicationController
       redirect_to prototype_path(@comment.prototype.id)
     else 
       @comments = @prototype.comments.includes(:user)
-      render "tweets/show", status: :unprocessable_entity
+      render "prototyps/show", status: :unprocessable_entity
     end
 
   end
